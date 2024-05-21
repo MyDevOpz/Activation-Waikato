@@ -1,22 +1,28 @@
-﻿<#PSScriptInfo
+﻿<# PSScriptInfo
 
 -OPEN in PowerShell ISE as Administrator
 -DO NOT *RUN ALL* (i.e. Do Not "Run Script")
--This file is intended for testing.
+-This file is intended for testing
 -Select and Run each line step-by-step via "Run Selection" command or function F8
 
 #>
 
-# Examples of winget uninstall:
-# winget uninstall --name powertoys --version 0.15.2
-# winget uninstall --id "{24559D0F-481C-F3BE-8DD0-D908923A38F8}"
+<# Examples of winget uninstall
 
-# MS OFFICE CONSUMER APPS
-# winget uninstall --name "Microsoft 365 - en-us"
-# winget uninstall --name "Microsoft Teams"
-# winget uninstall --name "OneDrive"
-# winget uninstall --name "OneNote for Windows 10"
-# winget uninstall --name "Outlook for Windows"
+winget uninstall --name powertoys --version 0.15.2
+winget uninstall --id "{24559D0F-481C-F3BE-8DD0-D908923A38F8}"
+
+#>
+
+<# MS OFFICE CONSUMER APPS
+
+winget uninstall --name "Microsoft 365 - en-us"
+winget uninstall --name "Microsoft Teams"
+winget uninstall --name "OneDrive"
+winget uninstall --name "OneNote for Windows 10"
+winget uninstall --name "Outlook for Windows"
+
+#>
 
 # MS WINDOWS CONSUMER APPS
 winget uninstall --name "Films & TV"
@@ -38,7 +44,8 @@ winget uninstall --name "Netflix"
 winget uninstall --name "Spotify"
 winget uninstall --name "Disney"
 
-# MS WINDOWS OEM APPS (HP)
+<# MS WINDOWS OEM APPS (HP)
+
 winget uninstall --name "0z8vjag6ke6"
 winget uninstall --name "HP Audio Control"
 winget uninstall --name "HP Connection Optimizer"
@@ -55,3 +62,5 @@ winget uninstall --name "HP System Information"
 winget uninstall --name "HP Wolf Security"
 winget uninstall --name "HP Wolf Security - Console"
 winget uninstall --name "myHP"
+
+#>
