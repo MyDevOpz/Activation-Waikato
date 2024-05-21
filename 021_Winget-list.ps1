@@ -16,4 +16,4 @@ Install-PackageProvider -Name winget
 #>
 
 # LIST all apps
-winget list
+winget list --accept-source-agreements
