@@ -10,9 +10,9 @@
 # INSTALL pre-requisites
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 Install-Module PSWindowsUpdate -Force
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 Import-Module PSWindowsUpdate
-Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser -Force
 Get-ExecutionPolicy -List
 
 # VIEW then INSTALL updates
